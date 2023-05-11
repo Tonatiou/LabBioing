@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+section.content {
+    margin-bottom: 20px;
+}
+
+.dashboard-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.summary-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    flex-basis: 30%;
+}
+
+.recent-activity ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
